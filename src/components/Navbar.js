@@ -45,32 +45,27 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 '>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                <li className='socialIcons bg-blue-500 '>
+                    <a href="/">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                <li className='socialIcons bg-blue-600'>
+                    <a href="/">
                         Facebook <FaFacebook size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500 '>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                <li className='socialIcons bg-gray-500 '>
+                    <a href="https://github.com/johnnysan922">
                         Github <FaGithub size={30}/>
                     </a>
-                </li><li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600 '>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                </li><li className='socialIcons bg-red-600 '>
+                    <a href="/">
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600 '>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                <li className='socialIcons bg-green-600 '>
+                    <a href="/">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

@@ -5,3 +5,26 @@
     margin: 0 18px;
     margin-top: 18px;
 }
+
+.socialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    height: 60px;
+    margin-left: -100px;
+    transition-duration: 300ms;
+    
+}
+
+.socialIcons:hover{
+    margin-left: -10px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(209 213 219);
+}
