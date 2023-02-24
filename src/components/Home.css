@@ -1,0 +1,28 @@
+*{
+    color: rgb(156 163 175);
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #0a192f;
+}
+
+.bio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1000px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1;
+    color: rgb(204 214 246);
+}
